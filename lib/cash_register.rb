@@ -29,7 +29,7 @@ def items
   @items
 end
 def void_last_transaction
-  @total-+ @last_item
+  @total -= @last_item
   @total
 end
 end
