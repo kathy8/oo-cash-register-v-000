@@ -3,7 +3,7 @@ class cash_register_spec
 
   def initialize(discount = 0)
     @total = 0
-    @dsicount= discount
+    @discount= discount
 
     @items = []
   end
